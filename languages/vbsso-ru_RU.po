@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: vbsso\n"
+"POT-Creation-Date: 2017-03-15 12:03+0200\n"
+"PO-Revision-Date: 2017-03-15 12:14+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;VBSSO_PLATFORM_FOOTER_LINK_DESCRIPTION_HTML\n"
+"X-Poedit-SearchPath-0: vbsso.php\n"
+
+#: vbsso.php:125
+msgid "Create your account"
+msgstr "Создать новый аккаунт"
+
+#: vbsso.php:129 vbsso.php:627 vbsso.php:688
+msgid "Site Admin"
+msgstr "Перейти в Консоль Администратора"
+
+#: vbsso.php:409
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: vbsso.php:417
+msgid "Platform Shared Key can not be empty"
+msgstr ""
+
+#: vbsso.php:440
+msgid "Platform Shared Key"
+msgstr "Секретный ключ, необходимый для подключения данной платформы к vBSSO vBulletin."
+
+#: vbsso.php:443
+msgid "Platform Address"
+msgstr "Адрес платформы, необходимый для подключения платформы к vBSSO vBulletin (скопируйте этот адрес и вставьте в поле `Адрес платформы` на страничке настроек vBSSO vBulletin)."
+
+#: vbsso.php:454
+msgid "Fetch and Show vBulletin Avatars"
+msgstr "Использовать аватары с материнской платформы (включив ету настройку Ваш vBulletin аватар будет использоваться и на WP платформе)."
+
+#: vbsso.php:458
+msgid "View Member Profile in vBulletin"
+msgstr "Включить возможность просмотра профилей на материнской платформе (vBSSO будет автоматично перенаправлять Вас на страничку vBulletin профиля)."
+
+#: vbsso.php:462
+msgid "Edit Profile in vBulletin"
+msgstr ""
+"Включить возможность редактирования профилей на материнской платформе (vBSSO будет автоматично перенаправлять Вас на страничку vBulletin профиля для его редактирования. <br>Все "
+"сохраненные изменения будут пересены на дочернию автоматично)."
+
+#: vbsso.php:466
+msgid "Ignore Membership (Anyone can register through vBSSO)"
+msgstr "Включить возможность регистрации для всех посетителей сайта используя vBSSO"
+
+#: vbsso.php:471
+msgid "Footer Link"
+msgstr "Ссылка в нижнем колонтитуле"
+
+#: vbsso.php:472
+msgid "Platform"
+msgstr "Платформа"
+
+#: vbsso.php:473
+msgid "Settings"
+msgstr "Настройки"
+
+#: vbsso.php:474
+msgid "User Groups Association (Default role is subscriber)"
+msgstr "Объединения пользовательских групп (при создании нового юзера его роль по умолчанию будет - Подписчик)."
+
+#: vbsso.php:475
+msgid "vBulletin Usergroups"
+msgstr "Пользовательские группы vBulletin"
+
+#: vbsso.php:476
+msgid "Wordpress Roles"
+msgstr "Роли Wordpress"
+
+#: vbsso.php:477
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: vbsso.php:495
+msgid "Show"
+msgstr "Показывать ссылку на ресурс проекта в нижнем колонтитуле каждой странички Wordpress платформы."
+
+#: vbsso.php:496
+msgid "Don't show (I have already purchased branding Free license)"
+msgstr "Не показывать (Мною уже куплена Лицензия, свободная от брендинга)"
+
+#: vbsso.php:512
+msgid "Please unconnect this platform to change shared key"
+msgstr "Пожалуйста, отключите данную платформу от vBSSO vBulletin, для того чтобы чтобы изменить секретный ключ."
+
+#: vbsso.php:581 vbsso.php:593 vbsso.php:649
+msgid "vBSSO Login Form"
+msgstr "Форма входа vBSSO"
+
+#: vbsso.php:582
+msgid "vBSSO Login Form Widget"
+msgstr "Форма входа vBSSO Виджет"
+
+#: vbsso.php:609
+msgid "Username or email address"
+msgstr "Имя пользователя или адрес электронной почты"
+
+#: vbsso.php:610
+msgid "Password"
+msgstr "Пароль"
+
+#: vbsso.php:613
+msgid "Remember me"
+msgstr "Запомнить меня"
+
+#: vbsso.php:614
+msgid "Login"
+msgstr "Войти"
+
+#: vbsso.php:620
+msgid "Forgot your password?"
+msgstr "Забыли Ваш пароль?"
+
+#: vbsso.php:622
+#, php-format
+msgid "Howdy, %1$s"
+msgstr "Привет, %1$s"
+
+#: vbsso.php:628
+msgid "Profile"
+msgstr "Профиль"
+
+#: vbsso.php:629
+msgid "Logout"
+msgstr "Выйти"
+
+#: vbsso.php:653
+msgid "Title:"
+msgstr ""
+
+#: vbsso.php:673
+msgid "Notifications: "
+msgstr ""
+
+#: vbsso.php:686
+msgid "Register"
+msgstr ""
+
+#: VBSSO_PLATFORM_FOOTER_LINK_DESCRIPTION_HTML
+msgid ""
+"To remove the footer link back to this project, you may purchase a <a href=\"http://www.vbsso.com/documentation/#remove-footer-link\">Branding Free license</a>. Your support is used to "
+"maintain this project."
+msgstr ""
+"Чтобы удалить в нижнем колонтитуле ссылку на этот проект Вы можете приобрести <a href=\"http://www.vbsso.com/documentation/#remove-footer-link\">Лицензию, свободную от брендинга</a>. "
+"Ваши средства будут использованы на поддержку данного проекта."
+
+#: VBSSO_PLATFORM_FOOTER_LINK_HTML
+msgid "<div align=\"center\" style=\"z-index: 3;color: #777777;clear:both; position: relative;\">Single Sign On provided by <a href=\"http://www.vbsso.com/\">vBSSO</a></div>"
+msgstr "<div align=\"center\" style=\"z-index: 3;color: #777777;clear:both; position: relative;\">Технология единого входа предоставлена <a href=\"http://www.vbsso.com/\">vBSSO</a></div>"
+
+#. Description of the plugin/theme
+msgid "Provides universal Secure Single Sign-On between vBulletin and different popular platforms like WordPress."
+msgstr " Обеспечивает универсальную безопасную авторизацию между vBulletin и различными популярными платформами как WordPress (и другими), через единую базу данных пользователей."
+
+#: /wp-content/plugins/vbsso/vbsso.php:524
+msgid "This platform is not connected."
+msgstr "Эта платформа не подключена."
+
+#~ msgid "footer_link_description"
+#~ msgstr ""
+#~ "Чтобы удалить в нижнем колонтитуле ссылку на этот проект Вы можете приобрести <a href=\"http://www.vbsso.com/documentation/#remove-footer-link\">Лицензию, свободную от брендинга</"
+#~ "a>. Ваши средства будут использованы на поддержку данного проекта."

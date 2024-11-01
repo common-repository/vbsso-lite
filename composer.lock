@@ -1,0 +1,118 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8038a8e1c445ca4e4906ad8b645b6e86",
+    "packages": [
+        {
+            "name": "com.extremeidea.vbsso/foolz-package-fork",
+            "version": "0.0.1.190791554",
+            "dist": {
+                "type": "zip",
+                "url": "https://composer.extreme-idea.com/production/artifacts/foolz-package-fork-0.0.1-20190320155422-1.23ea5efa.zip",
+                "reference": null,
+                "shasum": "2f0d7b0549483510edc4ef82691211f02d0a5ab5"
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Foolz\\Package\\": "src/"
+                }
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "foolz",
+                    "email": "support@foolz.us"
+                }
+            ],
+            "description": "A package system for managing things like plugins, in Composer format.",
+            "homepage": "http://www.foolz.us",
+            "keywords": [
+                "composer",
+                "package"
+            ],
+            "support": {
+                "email": "support@foolz.us",
+                "irc": "irc://irc.irchighway.net/fooldriver"
+            },
+            "time": "2019-03-20T15:54:22+00:00"
+        },
+        {
+            "name": "com.extremeidea.vbsso/foolz-plugin-fork",
+            "version": "0.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://composer.extreme-idea.com/production/artifacts/foolz-plugin-fork-0.0.1.zip",
+                "reference": null,
+                "shasum": "204340974476a2c6a900d386b2a5a471a8a0990f"
+            },
+            "require": {
+                "com.extremeidea.vbsso/foolz-package-fork": "^0.0.1",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Foolz\\Plugin\\": "src/"
+                }
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "foolz",
+                    "email": "support@foolz.us"
+                }
+            ],
+            "description": "A plugin system for PHP, with cascading events.",
+            "homepage": "http://www.foolz.us",
+            "keywords": [
+                "callback",
+                "event",
+                "plugin"
+            ],
+            "support": {
+                "email": "support@foolz.us",
+                "irc": "irc://irc.irchighway.net/fooldriver"
+            },
+            "time": "2019-03-20T15:58:09+00:00"
+        },
+        {
+            "name": "com.extremeidea.vbsso/vbsso-connect-shared",
+            "version": "1.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://composer.extreme-idea.com/production/artifacts/vbsso-connect-shared-1.1.1.zip",
+                "reference": null,
+                "shasum": "8ec4e4158d0db9ba11b4cd346d68eacc257c4f3c"
+            },
+            "type": "library",
+            "description": "Vbsso connect - Core.",
+            "homepage": "https://www.extreme-idea.com",
+            "keywords": [
+                "connect",
+                "core",
+                "shared",
+                "vbsso"
+            ],
+            "time": "2019-03-21T16:59:16+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

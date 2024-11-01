@@ -1,0 +1,48 @@
+#vbsso_stats_holder {
+    display: none;
+    position: absolute;
+    background-color: white;
+    line-height: normal;
+    border: 2px solid rgb(113, 146, 168);
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 7px;
+}
+
+#vbsso_stats_holder table {
+    width: 100%;
+}
+
+#vbsso_stats_holder tr td:first-child {
+    text-align: center;
+    /*width: 30px;*/
+}
+
+#vbsso_stats_notifications {
+    background-image: url(../images/arrow_down.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.vbsso_stat_message {
+    text-align: right;
+}
+
+#vbsso_menu {
+    float: left;
+}
+
+#vbsso_avatar {
+    float: left;
+    padding: 3px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin-right: 22px;
+    margin-top: 5px;
+    width: 38px;
+    height: 38px;
+}

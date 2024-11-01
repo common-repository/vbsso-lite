@@ -1,0 +1,13 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.extreme-idea.com/production/"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "com.extremeidea.vbsso/vbsso-connect-shared": "1.1.1",
+    "com.extremeidea.vbsso/foolz-plugin-fork": "0.0.1"
+  }
+}

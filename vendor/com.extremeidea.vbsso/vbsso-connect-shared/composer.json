@@ -1,0 +1,13 @@
+{
+  "name": "com.extremeidea.vbsso/vbsso-connect-shared",
+  "description": "Vbsso connect - Core.",
+  "version": "1.1.1",
+  "homepage": "https://www.extreme-idea.com",
+  "keywords": [
+    "vbsso",
+    "connect",
+    "shared",
+    "core"
+  ],
+  "time": "2019-03-21 16:59:16"
+}

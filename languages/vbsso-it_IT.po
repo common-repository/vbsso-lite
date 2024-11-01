@@ -1,0 +1,317 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Volodymyr Zaiets <volodymyr.zaiets@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, c-format
+msgid ""
+"New version of <b>vBSSO Connect %s </b> %s is available! We strongly recommend to <a href='%s' "
+"target='_blank'>upgrade</a> your old version to new one <b>released on %s</b>. Click <a href='%s' "
+"target='_blank'>here</a> to open download page."
+msgstr ""
+"È disponibile la nuova versione di <b>vBSSO Connect %s</b> %s! Raccomandiamo fortemente di <a href='%s' "
+"target='_blank'>aggiornare</a> la vecchia versione alla nuova one <b>pubblicato su %s</b>. Clicca <a "
+"href='%s' target='_blank'>qui</a> per aprire la pagina di download."
+
+#, c-format
+msgid ""
+"New version of <b>vBSSO Connect %s </b> %s is available! We strongly recommend to <a href='%s' "
+"target='_blank'>upgrade</a> your old version released on %s to new one <b>released on %s</b>. Click <a "
+"href='%s' target='_blank'>here</a> to open download page."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Provides universal Secure Single Sign-On between vBulletin and different popular platforms like "
+"WordPress."
+msgstr ""
+"Permette di effettuare un Singolo Login universale e sicuro tra vBulletin e le più conosciute "
+"piattaforme come Wordpress."
+
+# ************** vbsso_shared.php section BEGIN **************
+#: VBSSO_PLATFORM_ERROR_DISABLED
+msgid ""
+"You are trying to connect a platform where vBSSO extension is disabled. Please enable vBSSO extension on "
+"that platform and try again."
+msgstr ""
+"Stai provando a connettere una piattaforma dove l'estensione vBSSO è disabilitata. Attiva l'estensione "
+"vBSSO in questa piattaforma e riprova."
+
+#: VBSSO_PLATFORM_DESCRIPTION_HTML
+msgid ""
+"Provides universal Secure Single Sign-On between vBulletin and different popular platforms. The product "
+"provided by <a href=\"http://www.vbsso.com/\">vBSSO.</a>"
+msgstr ""
+"Permette di effettuare un Singolo Login universale e sicuro tra vBulletin e le più conosciute "
+"piattaforme come Wordpress<a href=\"http://www.vbsso.com/\">vBSSO.</a>"
+
+#: VBSSO_PLATFORM_FOOTER_LINK_DESCRIPTION_HTML
+msgid ""
+"To remove the footer link back to this project, you may purchase a <a href=\"http://www.vbsso.com/"
+"documentation/#remove-footer-link\">Branding Free license</a>. Your support is used to maintain this "
+"project."
+msgstr ""
+"Per rimuovere il link sul footer che indirizza alla pagina di questo progetto, devi acquistare una <a "
+"href=\"http://www.vbsso.com/documentation/#remove-footer-link\">Licenza Ufficiale</a>. Il tuo supporto è "
+"usato per supportare questo progetto."
+
+#: VBSSO_PLATFORM_FOOTER_LINK_HTML
+msgid ""
+"<div align=\"center\" style=\"z-index: 3;color: #777777;clear:both; position: relative;\">Single Sign On "
+"provided by <a href=\"http://www.vbsso.com/\">vBSSO</a></div>"
+msgstr ""
+"<div align=\"center\" style=\"z-index: 3;color: #777777;clear:both;\">Login singolo fornito da <a href="
+"\"http://www.vbsso.com/\">vBSSO</a></div>"
+
+#: VBSSO_NAMED_EVENT_FIELD_API_KEY_TITLE
+msgid "Platform Shared Key"
+msgstr "Chiave condivisa della piattaforma"
+
+#: VBSSO_NAMED_EVENT_FIELD_API_KEY_WARNING
+msgid "Please unconnect this platform to change shared key"
+msgstr "Disconnettiti dalla piattaforma per cambiare la Chiave Condivisa"
+
+#: VBSSO_NAMED_EVENT_FIELD_LID_TITLE
+msgid "Plugin Id"
+msgstr "Plugin Id"
+
+#: VBSSO_NAMED_EVENT_FIELD_LISTENER_URL_TITLE
+msgid "Platform Address"
+msgstr ""
+"Usa questo indirizzo per connettere questa piattaforma a vBSSO vBulletin (copialo e incollalo nel campo "
+"appropiato nella pagina \"Piattaforme\" di vBSSO vBulletin)"
+
+#: VBSSO_NAMED_EVENT_FIELD_LOGIN_THROUGH_VB_PAGE_TITLE
+msgid "Login Through vBulletin Page"
+msgstr "Accedere attraverso vBulletin Pagina"
+
+#: VBSSO_NAMED_EVENT_FIELD_SHOW_VBULLETIN_AUTHOR_PROFILE_TITLE
+msgid "View Member Profile in vBulletin"
+msgstr "Apre la pagina \"Profilo Utente\" di vBSSO vBulletin invece di quella di WordPress"
+
+#: VBSSO_NAMED_EVENT_FIELD_EDIT_MEMBER_PROFILE_IN_VBULLETIN_TITLE
+msgid "Edit Member Profile in vBulletin"
+msgstr "Modifica profilo membro in vBulletin"
+
+#: VBSSO_NAMED_EVENT_FIELD_EDIT_PROFILE_IN_VBULLETIN_TITLE
+msgid "Edit Profile in vBulletin"
+msgstr "Apre la pagina \"Modifica Profilo\" di vBSSO vBulletin invece di quella di WordPress"
+
+#: VBSSO_NAMED_EVENT_FIELD_SHOW_VBULLETIN_PROFILE_TITLE
+msgid "View My Profile in vBulletin"
+msgstr "Visualizza il mio profilo in vBulletin"
+
+#: VBSSO_NAMED_EVENT_FIELD_FETCH_AVATARS_TITLE
+msgid "Fetch and Show vBulletin Avatars"
+msgstr "Mostra l'avatar di vBSSO vBulletin invece di quello di WordPress"
+
+#: VBSSO_NAMED_EVENT_FIELD_SHOW_LOGIN_FORM_WIDGET_TITLE
+msgid "Show vBSSO Login Form Widget"
+msgstr "Mostra vBSSO Login Form Widget"
+
+#: VBSSO_NAMED_EVENT_FIELD_ADMINISTRATOR_ROLE_NAME_TITLE
+msgid "Name of Administrator Role"
+msgstr "Nome del ruolo di amministratore"
+
+#: VBSSO_NAMED_EVENT_FIELD_USERGROUPS_ASSOC_TITLE
+msgid "Usergroups Associations"
+msgstr "Utente Gruppi Associazioni"
+
+#: VBSSO_NAMED_EVENT_FIELD_LOGIN_VBULLETIN_URL_TITLE
+msgid "Login vBulletin Url"
+msgstr "Accedi vBulletin URL"
+
+#: VBSSO_NAMED_EVENT_FIELD_LOGIN_URL_TITLE
+msgid "Login Url"
+msgstr "URL di accesso"
+
+#: VBSSO_NAMED_EVENT_FIELD_LOGOUT_URL_TITLE
+msgid "Logout Url"
+msgstr "Logout URL"
+
+#: VBSSO_NAMED_EVENT_FIELD_REGISTER_URL_TITLE
+msgid "Register Url"
+msgstr "Registrazione URL"
+
+#: VBSSO_NAMED_EVENT_FIELD_LOSTPASSWORD_URL_TITLE
+msgid "Lost Password Url"
+msgstr "URL Password"
+
+#: VBSSO_NAMED_EVENT_FIELD_AVATAR_URL_TITLE
+msgid "Avatar Url"
+msgstr "Avatar URL"
+
+#: VBSSO_NAMED_EVENT_FIELD_PROFILE_URL_TITLE
+msgid "Profile Url"
+msgstr "Profilo URL"
+
+#: VBSSO_NAMED_EVENT_FIELD_USERGROUPS_URL_TITLE
+msgid "Get User Groups Url"
+msgstr "Ottenere User Groups URL"
+
+#: VBSSO_NAMED_EVENT_FIELD_BAA_USERNAME_TITLE
+msgid "Basic access authentication username"
+msgstr "l'accesso di base di autenticazione nome utente"
+
+#: VBSSO_NAMED_EVENT_FIELD_BAA_PASSWORD_TITLE
+msgid "Basic access authentication password"
+msgstr "l'accesso di base password di autenticazione"
+
+#: VBSSO_NAMED_EVENT_FIELD_USER_UNREAD_STATS_URL_TITLE
+msgid "Unread Stats Url"
+msgstr "Non letto Statistiche URL"
+
+#: VBSSO_NAMED_EVENT_FIELD_STATS_URL_TITLE
+msgid "Stats Url"
+msgstr "Statistiche URL"
+
+#: /wp-content/plugins/vbsso/includes/vbsso_shared.php:121
+msgid "Show"
+msgstr "Mostra"
+
+#: /wp-content/plugins/vbsso/includes/vbsso_shared.php:122
+msgid "Don't show (I have already purchased branding Free license)"
+msgstr "Nascondi (Ho già acquistato la Licenza Ufficiale)"
+
+# ************** vbsso_shared.php section END **************
+# ************** vbsso.php section BEGIN **************
+#: /wp-content/plugins/vbsso/vbsso.php:76
+msgid "Please install these PHP extensions"
+msgstr "Si prega di installare le estensioni PHP"
+
+#: /var/www/extreme-idea.int//wp-content/plugins/vbsso/vbsso.php:76
+msgid "before installing or upgrading this product!"
+msgstr "prima di installare o aggiornare questo prodotto!"
+
+#: /wp-content/plugins/vbsso/vbsso.php:122
+msgid "Create your account"
+msgstr "Crea un Account"
+
+#: /wp-content/plugins/vbsso/vbsso.php:414
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Non si dispone di autorizzazioni sufficienti per accedere a questa pagina."
+
+#: /wp-content/plugins/vbsso/vbsso.php:422
+msgid "Platform Shared Key can not be empty"
+msgstr "Piattaforma Shared Key non può essere vuoto"
+
+#: /wp-content/plugins/vbsso/vbsso.php:463
+msgid "Ignore Membership (Anyone can register through vBSSO)"
+msgstr ""
+"Ignora Iscrizione (L'impostazione Ignora Iscrizione permette di oltrepassare la registrazione di ogni "
+"visitatore che usa vBSSO. Se non vuoi abilitare la registrazione, non selezionare questa impostazione)"
+
+#: /wp-content/plugins/vbsso/vbsso.php:471
+msgid "Footer Link"
+msgstr "Link sul footer"
+
+#: /wp-content/plugins/vbsso/vbsso.php:489
+msgid "Platform"
+msgstr "Piattaforma"
+
+#: /wp-content/plugins/vbsso/vbsso.php:497
+msgid "Shared Key"
+msgstr ""
+"La tua Chiave Segreta (usata su vBSSO vBulletin nella pagina \"Connetti alla Piattaforma\" per "
+"connettersi a questa piattaforma)"
+
+#: /wp-content/plugins/vbsso/vbsso.php:503
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: /wp-content/plugins/vbsso/vbsso.php:524
+msgid "User Groups Association (Default role is subscriber)"
+msgstr "Associazione Gruppi Utenti (il ruolo di default di un utente creato è Sottoscrittore)"
+
+#: /wp-content/plugins/vbsso/vbsso.php:524
+msgid "This platform is not connected."
+msgstr "Questa piattaforma non è collegata."
+
+#: /wp-content/plugins/vbsso/vbsso.php:524
+msgid "vBulletin Usergroups"
+msgstr "Gruppi Utenti di vBulletin"
+
+#: /wp-content/plugins/vbsso/vbsso.php:524
+msgid "Wordpress Roles"
+msgstr "Ruoli di Wordpress"
+
+#: /wp-content/plugins/vbsso/vbsso.php:550
+msgid "Save Changes"
+msgstr "Salva modifiche"
+
+#: /wp-content/plugins/vbsso/vbsso.php:569 /wp-content/plugins/vbsso/vbsso.php:579
+msgid "vBSSO Login Form"
+msgstr "Form di Login di vBSSO"
+
+#: /wp-content/plugins/vbsso/vbsso.php:570
+msgid "vBSSO Login Form Widget"
+msgstr "vBSSO Login Form Widget"
+
+#: /wp-content/plugins/vbsso/vbsso.php:595
+msgid "Username or email address"
+msgstr "Nome Utente o indirizzo email"
+
+#: /wp-content/plugins/vbsso/vbsso.php:596
+msgid "Password"
+msgstr "Password"
+
+#: /wp-content/plugins/vbsso/vbsso.php:599
+msgid "Remember me"
+msgstr "Ricordami"
+
+#: /wp-content/plugins/vbsso/vbsso.php:600
+msgid "Login"
+msgstr "Login"
+
+#: /wp-content/plugins/vbsso/vbsso.php:606
+msgid "Forgot your password?"
+msgstr "Dimenticato la password?"
+
+#: /wp-content/plugins/vbsso/vbsso.php:608
+msgid "Howdy, %1$s"
+msgstr "Ciao %1$s"
+
+#: /wp-content/plugins/vbsso/vbsso.php:613 /wp-content/plugins/vbsso/vbsso.php:678
+msgid "Site Admin"
+msgstr "Admin"
+
+#: /wp-content/plugins/vbsso/vbsso.php:614
+msgid "Profile"
+msgstr "Profilo"
+
+#: /wp-content/plugins/vbsso/vbsso.php:615
+msgid "Log out"
+msgstr "Logout"
+
+#: /wp-content/plugins/vbsso/vbsso.php:662
+msgid "Notifications: "
+msgstr "Notifiche:"
+
+#: /wp-content/plugins/vbsso/vbsso.php:664
+msgid "Unread Private Messages"
+msgstr "Messaggi Privati non letti"
+
+#: /wp-content/plugins/vbsso/vbsso.php:665
+msgid "Unread Visitor Messages"
+msgstr "Messaggi dei Visitatori non letti"
+
+#: /wp-content/plugins/vbsso/vbsso.php:666
+msgid "Incoming Friend Requests"
+msgstr "Richieste di amicizia in arrivo"
+
+#: /wp-content/plugins/vbsso/vbsso.php:667
+msgid "Unread Picture Comments"
+msgstr "Non letto Commenti immagine"
+
+#: /wp-content/plugins/vbsso/vbsso.php:676
+msgid "Register"
+msgstr "Registro"

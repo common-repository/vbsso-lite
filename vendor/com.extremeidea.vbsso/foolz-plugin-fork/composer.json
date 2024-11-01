@@ -1,0 +1,24 @@
+{
+    "name": "com.extremeidea.vbsso/foolz-plugin-fork",
+    "description": "A plugin system for PHP, with cascading events.",
+    "version": "0.0.1",
+    "homepage": "http://www.foolz.us",
+    "keywords": ["plugin", "event", "callback"],
+    "time": "2019-03-20 15:58:09",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [{"name": "foolz", "email": "support@foolz.us"}],
+    "support": {
+        "email": "support@foolz.us",
+        "irc": "irc://irc.irchighway.net/fooldriver"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "com.extremeidea.vbsso/foolz-package-fork": "^0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Foolz\\Plugin\\": "src/"
+        }
+    }
+}

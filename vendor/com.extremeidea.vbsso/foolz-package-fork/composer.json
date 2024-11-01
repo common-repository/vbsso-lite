@@ -1,0 +1,23 @@
+{
+    "name": "com.extremeidea.vbsso/foolz-package-fork",
+    "description": "A package system for managing things like plugins, in Composer format.",
+    "version": "0.0.1.190791554",
+    "homepage": "http://www.foolz.us",
+    "keywords": ["package", "composer"],
+    "time": "2019-03-20 15:54:22",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [{"name": "foolz", "email": "support@foolz.us"}],
+    "support": {
+        "email": "support@foolz.us",
+        "irc": "irc://irc.irchighway.net/fooldriver"
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Foolz\\Package\\": "src/"
+        }
+    }
+}
